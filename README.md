@@ -45,13 +45,11 @@ O layout da aplicação está disponível no Figma:
 
 ---
 
-## ⚙️ Funcionalidades Futuras
+## ⚙️ Funcionalidades Implementadas
 
 - [x] Adicionar a lógica para adicionar uma tarefa.
 - [x] Adicionar a lógica para remover uma tarefa.
 - [x] Adicionar a lógica para concluir uma tarefa e atualizar o contador.
-- [ ] Adicionar a data de conclusão da tarefa.
-- [ ] Armazenamento dos cards no LocalStorage.
 
 
 ---
