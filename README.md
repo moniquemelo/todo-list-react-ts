@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+<h1 align="center"> 
+	Todo List 🚀
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4 align="center">
+    <img alt="todolist" title="#todolist" src="./src/assets/banner.png" />
+</h4>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Sobre o projeto
 
-## Expanding the ESLint configuration
+Todo List - Projeto que exibe uma lista de tarefas e um status de tarefas concluídas, onde é possível adicionar e remover tarefas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Layout de Projeto fornecidos pela [Rocketseat].
+A partir dessa base, propus implementar algumas funcionalidades a mais para enriquecer o projeto. 
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🎨 Layout
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+O layout da aplicação está disponível no Figma:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<a href="https://www.figma.com/design/Vkgr6COm5LlZeKq7B9kjQY/ToDo-List-(Copy)?node-id=0-1&t=R1ZY9iqQxJt9G2mb-0">
+  <img alt="Protótipo de tela feito pelo Figma" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361"><img>
+</a>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+---
+
+
+## ⚙️ Funcionalidades (disponibilizadas pela Rocketseat)
+
+- [x] Layout do FIGMA com o protótipo da tela.
+- [x] Criação de todo o HTML e CSS da página exatamente de acordo com o disponibilizado no Figma, incluíndo ícones e avatar.
+- [x] Template dos componentes e alguns códigos iniciais.
+
+
+---
+
+## ⚙️ Funcionalidades Futuras
+
+- [x] Adicionar a lógica para adicionar uma tarefa.
+- [x] Adicionar a lógica para remover uma tarefa.
+- [x] Adicionar a lógica para concluir uma tarefa e atualizar o contador.
+- [ ] Adicionar a data de conclusão da tarefa.
+- [ ] Armazenamento dos cards no LocalStorage.
+
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito por Jessica Monique (pode chamar de Monique 👋🏽) | 
+[Linkedin](https://www.linkedin.com/in/jmoniquemelo/)
+
+---
