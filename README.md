@@ -26,6 +26,15 @@ O layout da aplicação está disponível no Figma:
 
 ---
 
+## 💻 Tecnologias utilizadas 
+
+- React.
+- Javascript.
+- Typescript.
+- Styled Components.
+
+---
+
 
 ## ⚙️ Funcionalidades (disponibilizadas pela Rocketseat)
 
